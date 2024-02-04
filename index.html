@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-KJEZzJlgKk0s7QT8i7E7jZ3BwF+NJ/kuuFpO27tRZ8+/Km0tgQ5zljq/9KgD78F7jAMJvJepOL5rxcG9xg8boA==" crossorigin="anonymous" />
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-gn538zXD2IVlRqySRRCFJ6x1c2DEuOTw3vuugNFbQ2LBsDsmabRWXaGivhEokV1TyvgxsUJd7wzhVY6Fsq//2Q==" crossorigin="anonymous" /> -->
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/rlogo.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times"></i>
+                </ul>
+                <i class="fas fa-bars"></i>
+            </nav>
+
+            <div class="header-text"> 
+                <p style="color: black; font-size: 35px; font-family: 'Pacifico', cursive;">Tech-Savvy</p>
+                <!-- <h1 style="color: black; font-size: 35px;">Hi, This is Ramisa Sharar Nidhi</h1> -->
+                <!-- <h1 style="color: black; font-size: 35px; font-family: Script;">Hi, This is Ramisa Sharar Nidhi</h1> -->
+                <h1 style="color: black; font-size: 35px; font-family: 'Pacifico', cursive;">Hi, This is Ramisa Sharar Nidhi........</h1>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/aboutdao.jpg" alt="Profile Picture">
+                </div>
+                <div class="about-col-2">
+                    <h1 style="color: black;" class="sub-title">About Me</h1>
+                    <p style="font-size: 20px; color: black;">
+                       I'm, Ramisa Sharar Nidhi is an enthusiastic learner, a front-end developer, and a machine learning enthusiast. I enjoys working on machine learning projects and aims to study data analysis and quality assurance. I approach every assignment with creativity and problem-solving abilities.Together, let's bring your digital concepts to life.
+                    </p>
+                    <div class="tab-titles">
+                        <p style="color: black;font-size: 25px;"  class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p style="color: black;font-size: 25px;" class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-content active-tab" id="skills">
+                        <ul>
+                            <li style="color: black;font-size: 20px;" ><span style="color: black;font-size: 18px;" >Machine Learning</span><br>Kaggle Contributor</li>
+                            <li style="color: black;font-size: 20px;" ><span style="color: black;font-size: 18px;" >Frontend</span><br>Web Development</li>
+                            <li style="color: black;font-size: 20px;" ><span style="color: black;font-size: 20px;" >Programming Skills</span><br>Python, Javascript, Html, Css</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="education">
+                        <ul>
+                            <!-- <li  style="color: black;font-size: 20px;"><span  style="color: black;font-size: 18px;">2018</span><br>SSC Examination</li>
+                            <li  style="color: black;font-size: 20px;"><span  style="color: black;font-size: 18px;">2020</span><br>HSC Examination</li> -->
+                            <li  style="color: black;font-size: 20px;">Passed SSC & HSC from Bangladesh Mahila Samiti Girls' High School & College respectively in 2018, 2020</li>
+                            <li  style="color: black;font-size: 20px;">Worked as volunteer at Jaago Foundation in 2015</li>
+                            <li  style="color: black;font-size: 20px;"><span  style="color: black;font-size: 18px;">2024</span><br>Currently studying in 9th semester at brac University</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="portfolio">
+        <div class="container">
+
+            <h1 style="color: black;font-size: 50px;"  class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/medical.jpg" >
+                    <div class="layer">
+                        <h3  style="color: black"> Health registry system</h3>
+                        <p style="color: black">The app contains the hospital report. It's a recognized application by the government.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/releif web logo.png" >
+                    <h3 style="color: black"> Disaster Relief Management System</h3>
+                    <p style="color: black">Managing all the relief work through this app.</p>
+                </div>
+                <!-- <div class="work">
+                    <img src="image/book.png" >
+                    <h3 style="color: black">Book Store App</h3>
+                    <p style="color: black">All kind of antic book are here in this online library</p>
+                </div> -->
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+    <div id="contact" style="background-color: black;">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 style="color:white"  class="sub-title">Contact Me</h1>
+                    <p style="color:white" ><i class="fa-solid fa-paper-plane"></i>ramisa.sharar.nidhi@g.bracu.ac.bd</p>
+                    <p style="color:white" ><i class="fa-solid fa-phone"></i>01747275978</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                    <a href="image/CV.pdf" download class="btn btn2">Download CV</a>
+
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+
+
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+
+<div class="copyright">
+    <p>Copyright © RNS.Personal portfolio</p>
+</div>
+
+    </div>
+
+
+
+    <script>
+        function opentab(tabname) {
+            var tablinks = document.getElementsByClassName('tab-links');
+            var tabcontent = document.getElementsByClassName('tab-content');
+
+            for (var i = 0; i < tablinks.length; i++) {
+                tablinks[i].classList.remove("active-link");
+            }
+
+            for (var i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyeEmiCE9kq5Qlxdqg1ytYuO_oT0uPztpqBAl0xWP-n1mJhepSw4sOMlBr4fsJbQbO-/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+
+
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
